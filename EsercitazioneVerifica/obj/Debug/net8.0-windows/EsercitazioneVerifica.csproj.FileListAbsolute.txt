@@ -1,0 +1,17 @@
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\bin\Debug\net8.0-windows\EsercitazioneVerifica.exe
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\bin\Debug\net8.0-windows\EsercitazioneVerifica.deps.json
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\bin\Debug\net8.0-windows\EsercitazioneVerifica.runtimeconfig.json
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\bin\Debug\net8.0-windows\EsercitazioneVerifica.dll
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\bin\Debug\net8.0-windows\EsercitazioneVerifica.pdb
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.Form1.resources
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.sourcelink.json
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.dll
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\refint\EsercitazioneVerifica.dll
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.pdb
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\EsercitazioneVerifica.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\4B INF\Info\Progetti\EsercitazioneVerifica_Solution\EsercitazioneVerifica\obj\Debug\net8.0-windows\ref\EsercitazioneVerifica.dll
