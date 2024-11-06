@@ -36,6 +36,10 @@
             btnAggiungi = new Button();
             btnElimina = new Button();
             btnModifica = new Button();
+            label3 = new Label();
+            txtRicerca = new TextBox();
+            btnSalva = new Button();
+            btnCarica = new Button();
             SuspendLayout();
             // 
             // txtNome
@@ -109,11 +113,57 @@
             btnModifica.UseVisualStyleBackColor = true;
             btnModifica.Click += btnModifica_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(24, 258);
+            label3.Name = "label3";
+            label3.Size = new Size(101, 15);
+            label3.TabIndex = 8;
+            label3.Text = "Ricerca Contatto: ";
+            // 
+            // txtRicerca
+            // 
+            txtRicerca.Location = new Point(143, 255);
+            txtRicerca.Name = "txtRicerca";
+            txtRicerca.Size = new Size(103, 23);
+            txtRicerca.TabIndex = 9;
+            txtRicerca.TextChanged += txtRicerca_TextChanged;
+            // 
+            // btnSalva
+            // 
+            btnSalva.BackColor = SystemColors.ActiveCaption;
+            btnSalva.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSalva.Location = new Point(437, 265);
+            btnSalva.Name = "btnSalva";
+            btnSalva.Size = new Size(66, 34);
+            btnSalva.TabIndex = 10;
+            btnSalva.Text = "Salva";
+            btnSalva.UseVisualStyleBackColor = false;
+            btnSalva.Click += btnSalva_Click;
+            // 
+            // btnCarica
+            // 
+            btnCarica.BackColor = SystemColors.ActiveCaption;
+            btnCarica.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCarica.ForeColor = SystemColors.ControlText;
+            btnCarica.Location = new Point(437, 225);
+            btnCarica.Name = "btnCarica";
+            btnCarica.Size = new Size(66, 34);
+            btnCarica.TabIndex = 12;
+            btnCarica.Text = "Carica";
+            btnCarica.UseVisualStyleBackColor = false;
+            btnCarica.Click += btnCarica_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(536, 247);
+            ClientSize = new Size(536, 311);
+            Controls.Add(btnCarica);
+            Controls.Add(btnSalva);
+            Controls.Add(txtRicerca);
+            Controls.Add(label3);
             Controls.Add(btnModifica);
             Controls.Add(btnElimina);
             Controls.Add(btnAggiungi);
@@ -138,5 +188,9 @@
         private Button btnAggiungi;
         private Button btnElimina;
         private Button btnModifica;
+        private Label label3;
+        private TextBox txtRicerca;
+        private Button btnSalva;
+        private Button btnCarica;
     }
 }

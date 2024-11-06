@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\4B INF\\Info\\Progetti\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\EsercitazioneVerifica.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\4° B INF\\Info\\Progetti\\Laboratorio\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\EsercitazioneVerifica.csproj",
       "projectName": "EsercitazioneVerifica",
-      "projectPath": "C:\\Users\\lenovo\\Desktop\\4B INF\\Info\\Progetti\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\EsercitazioneVerifica.csproj",
+      "projectPath": "C:\\Users\\lenovo\\Desktop\\4° B INF\\Info\\Progetti\\Laboratorio\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\EsercitazioneVerifica.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\Desktop\\4B INF\\Info\\Progetti\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\obj\\",
+      "outputPath": "C:\\Users\\lenovo\\Desktop\\4° B INF\\Info\\Progetti\\Laboratorio\\EsercitazioneVerifica_Solution\\EsercitazioneVerifica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

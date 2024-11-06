@@ -26,7 +26,7 @@ namespace EsercitazioneVerifica
             else
             {
                 contatti.Add(c);
-                mostraListBox();
+                mostraListBox("");
             }
 
             txtNome.Text = "";
@@ -44,14 +44,17 @@ namespace EsercitazioneVerifica
             return false;
         }
 
-        private void mostraListBox()
+        private void mostraListBox(string ricerca)
         {
             lstContatti.Items.Clear();
 
             foreach (var contatto in contatti)
             {
-                string s = contatto.nome + " - " + contatto.telefono;
-                lstContatti.Items.Add(s);
+                if (contatto.nome.ToLower().Contains(ricerca.ToLower()) || contatto.telefono.ToLower().Contains(ricerca.ToLower()) || ricerca == "")
+                {
+                    string s = contatto.nome + " - " + contatto.telefono;
+                    lstContatti.Items.Add(s);
+                }
             }
         }
 
@@ -68,7 +71,7 @@ namespace EsercitazioneVerifica
 
                 Contatto.EliminaContatto(contatti, nome, telefono);
 
-                mostraListBox();
+                mostraListBox("");
             }
         }
 
@@ -88,11 +91,51 @@ namespace EsercitazioneVerifica
                         Contatto.ModificaContatto(contatto, txtNome.Text, txtTelefono.Text);
                 }
 
-                mostraListBox();
+                mostraListBox("");
             }
 
             txtNome.Text = "";
             txtTelefono.Text = "";
+        }
+
+        private void txtRicerca_TextChanged(object sender, EventArgs e)
+        {
+            mostraListBox(txtRicerca.Text);
+        }
+
+        private void btnCarica_Click(object sender, EventArgs e)
+        {
+            StreamReader sr = new StreamReader("Contatti.txt");
+
+            string[] contatto;
+
+            while (!sr.EndOfStream)
+            {
+                contatto = sr.ReadLine().Split(',');
+
+                Contatto c = Contatto.CreaContatto(contatto[0], contatto[1]);
+                contatti.Add(c);
+            }
+
+            sr.Close();
+
+            mostraListBox("");
+        }
+
+        private void btnSalva_Click(object sender, EventArgs e)
+        {
+            StreamWriter sw = new StreamWriter("Contatti.txt", false);
+
+            foreach (var contatto in contatti)
+            {
+                string s = contatto.nome + "," + contatto.telefono;
+
+                sw.WriteLine(s);
+            }
+
+            sw.Close();
+
+            MessageBox.Show("Rubrica salvata correttamente");
         }
     }
 }
